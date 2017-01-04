@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   color: #2d3c49;
 }
@@ -12,12 +12,8 @@ hr {
   background-color: #7d97ad; /* Modern Browsers */
 }
 
-img {
+.col-md-12 img {
   width: 100%;
-}
-
-.col-md-4 img {
-  height: 280px;
 }
 
 .text-muted {
@@ -35,4 +31,10 @@ img {
 
 .title-super {
   font-size: 60px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .col-md-4 img {
+    height: 220px;
+  }
 }
