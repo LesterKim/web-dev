@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #2d3c49;
+}
+
+hr {
+  border: none;
+  height: 4px;
+  /* Set the hr color */
+  color: #7d97ad; /* old IE */
+  background-color: #7d97ad; /* Modern Browsers */
+}
+
+img {
+  width: 100%;
+}
+
+.col-md-4 img {
+  height: 280px;
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-logo {
+  margin-top: 30px;
+  max-height: 100px;
+}
+
+.title-super {
+  font-size: 60px;
+}
